@@ -67,7 +67,7 @@ function findKnownWords(data) {
 
 // replace this with an appropriate method that you want to use, or roll up into the findKnownWords function
 function escapeWord(text) {
-    return '#<' + text + '>#';
+    return '<div class="notranslate">' + text + '</div>';
 }
 
 // test the dictionary
