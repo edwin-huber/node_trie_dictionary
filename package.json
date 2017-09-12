@@ -1,0 +1,15 @@
+{
+  "name": "trietest",
+  "version": "1.0.0",
+  "repository": "https://github.com/edwin-huber/node_trie_dictionary.git",
+  "description": "Simple use of trie dictionary to escape German town and shop names from a string, using the resig-trie",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edwin Huber",
+  "license": "ISC",
+  "dependencies": {
+    "resig-trie": "^1.0.1"
+  }
+}
